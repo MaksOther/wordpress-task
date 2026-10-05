@@ -1,0 +1,585 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auth Forms for Elementor 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: auth-forms-for-elementor\n"
+
+#: ajax/class-afe-ajax-login.php:18
+#: ajax/class-afe-ajax-lost-password.php:17
+msgid "Please enter your email or username."
+msgstr ""
+
+#: ajax/class-afe-ajax-login.php:22
+msgid "Please enter your password."
+msgstr ""
+
+#: ajax/class-afe-ajax-login.php:26
+#: ajax/class-afe-ajax-lost-password.php:16
+#: ajax/class-afe-ajax-register.php:26
+msgid "Please fix the errors below."
+msgstr ""
+
+#: ajax/class-afe-ajax-login.php:41
+msgid "Invalid login or password."
+msgstr ""
+
+#: ajax/class-afe-ajax-login.php:51
+msgid "You have logged in successfully."
+msgstr ""
+
+#: ajax/class-afe-ajax-lost-password.php:24
+msgid "The email could not be sent. Please try again later or contact the site administrator."
+msgstr ""
+
+#: ajax/class-afe-ajax-lost-password.php:27
+#: includes/functions.php:162
+msgid "If an account with these details exists, a password reset link has been sent to its email address."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:13
+#: includes/functions.php:127
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:60
+msgid "Registration complete. You can now log in."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:67
+msgid "Registration complete."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:74
+msgid "Please enter your first name."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:78
+msgid "Please enter your last name."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:82
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:84
+msgid "This email address is already registered."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:90
+msgid "Please enter a username."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:92
+msgid "The username may only contain Latin letters, numbers, spaces and the characters _ . - @"
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:94
+msgid "The username may not be longer than 60 characters."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:96
+msgid "Sorry, that username is not allowed."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:98
+msgid "This username is already taken."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:104
+msgid "Please enter a password."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:118
+msgid "The passwords do not match."
+msgstr ""
+
+#: ajax/class-afe-ajax-register.php:107
+msgid "The password must be at least %d character long."
+msgid_plural "The password must be at least %d characters long."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ajax/class-afe-ajax.php:22
+msgid "You are already logged in."
+msgstr ""
+
+#: ajax/class-afe-ajax.php:29
+msgid "Security check failed. Please refresh the page and try again."
+msgstr ""
+
+#: ajax/class-afe-ajax.php:33
+msgid "reCAPTCHA verification failed. Please try again."
+msgstr ""
+
+#: classes/class-afe-assets.php:41
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: classes/class-afe-assets.php:42
+msgid "Forms are not submitted in the editor preview."
+msgstr ""
+
+#: classes/class-afe-plugin.php:56
+msgid "Auth Forms for Elementor requires Elementor to be installed and activated."
+msgstr ""
+
+#: classes/class-afe-plugin.php:62
+msgid "Auth Forms for Elementor requires Elementor version %s or newer."
+msgstr ""
+
+#: classes/class-afe-settings.php:21
+msgid "Auth Forms for Elementor"
+msgstr ""
+
+#: classes/class-afe-settings.php:22
+msgid "Auth Forms"
+msgstr ""
+
+#: classes/class-afe-settings.php:42
+msgid "Google reCAPTCHA v3"
+msgstr ""
+
+#: classes/class-afe-settings.php:48
+msgid "Site key"
+msgstr ""
+
+#: classes/class-afe-settings.php:49
+msgid "Secret key"
+msgstr ""
+
+#: classes/class-afe-settings.php:50
+msgid "Score threshold"
+msgstr ""
+
+#: classes/class-afe-settings.php:84
+msgid "Fill in both keys to protect the login, registration and password reset forms. Leave them empty to disable reCAPTCHA."
+msgstr ""
+
+#: classes/class-afe-settings.php:99
+msgid "Requests scoring below this value (0–1) are rejected. Default: 0.5."
+msgstr ""
+
+#: classes/class-afe-settings.php:136
+msgid "Settings"
+msgstr ""
+
+#: includes/functions.php:29
+msgid "%s: label"
+msgstr ""
+
+#: includes/functions.php:33
+msgid "%s: placeholder"
+msgstr ""
+
+#: includes/functions.php:46
+msgid "Email or Username"
+msgstr ""
+
+#: includes/functions.php:47
+msgid "Password"
+msgstr ""
+
+#: includes/functions.php:48
+msgid "First Name"
+msgstr ""
+
+#: includes/functions.php:49
+msgid "Last Name"
+msgstr ""
+
+#: includes/functions.php:50
+msgid "Email"
+msgstr ""
+
+#: includes/functions.php:51
+msgid "Username"
+msgstr ""
+
+#: includes/functions.php:52
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/functions.php:54
+msgid "Tab title"
+msgstr ""
+
+#: includes/functions.php:55
+msgid "Heading"
+msgstr ""
+
+#: includes/functions.php:56
+msgid "Button text"
+msgstr ""
+
+#: includes/functions.php:57
+msgid "Success message"
+msgstr ""
+
+#: includes/functions.php:61
+msgid "Login form texts"
+msgstr ""
+
+#: includes/functions.php:67
+#: includes/functions.php:87
+msgid "Log In"
+msgstr ""
+
+#: includes/functions.php:78
+msgid "Remember Me text"
+msgstr ""
+
+#: includes/functions.php:79
+#: widgets/class-afe-widget.php:138
+msgid "Remember Me"
+msgstr ""
+
+#: includes/functions.php:82
+#: widgets/class-afe-widget.php:139
+msgid "Forgot password link"
+msgstr ""
+
+#: includes/functions.php:83
+msgid "Forgot password?"
+msgstr ""
+
+#: includes/functions.php:91
+msgid "You have logged in successfully. Redirecting…"
+msgstr ""
+
+#: includes/functions.php:97
+msgid "Registration form texts"
+msgstr ""
+
+#: includes/functions.php:103
+#: includes/functions.php:119
+msgid "Register"
+msgstr ""
+
+#: includes/functions.php:123
+msgid "Registration complete. Redirecting…"
+msgstr ""
+
+#: includes/functions.php:126
+msgid "Registration closed message"
+msgstr ""
+
+#: includes/functions.php:133
+msgid "Forgot password form texts"
+msgstr ""
+
+#: includes/functions.php:142
+msgid "Reset password"
+msgstr ""
+
+#: includes/functions.php:145
+msgid "Description"
+msgstr ""
+
+#: includes/functions.php:146
+msgid "Enter your email or username and we will send you a link to reset your password."
+msgstr ""
+
+#: includes/functions.php:154
+msgid "Send reset link"
+msgstr ""
+
+#: includes/functions.php:157
+msgid "Back link"
+msgstr ""
+
+#: includes/functions.php:158
+msgid "Back to login"
+msgstr ""
+
+#: includes/functions.php:169
+msgid "Other texts"
+msgstr ""
+
+#: includes/functions.php:172
+msgid "Show password (button label)"
+msgstr ""
+
+#: includes/functions.php:173
+msgid "Show password"
+msgstr ""
+
+#: includes/functions.php:176
+msgid "Hide password (button label)"
+msgstr ""
+
+#: includes/functions.php:177
+msgid "Hide password"
+msgstr ""
+
+#: includes/functions.php:180
+msgid "Logged-in message"
+msgstr ""
+
+#: includes/functions.php:181
+msgid "You are logged in as %s."
+msgstr ""
+
+#: includes/functions.php:182
+msgid "%s is replaced with the user name."
+msgstr ""
+
+#: includes/functions.php:185
+msgid "Log out link"
+msgstr ""
+
+#: includes/functions.php:186
+msgid "Log out"
+msgstr ""
+
+#: includes/templates/register.php:13
+msgid "Enable “Anyone can register” in Settings → General."
+msgstr ""
+
+#: widgets/class-afe-widget.php:23
+msgid "Auth Form"
+msgstr ""
+
+#: widgets/class-afe-widget.php:73
+msgid "Form"
+msgstr ""
+
+#: widgets/class-afe-widget.php:81
+msgid "Form type"
+msgstr ""
+
+#: widgets/class-afe-widget.php:85
+msgid "Login form"
+msgstr ""
+
+#: widgets/class-afe-widget.php:86
+msgid "Registration form"
+msgstr ""
+
+#: widgets/class-afe-widget.php:87
+msgid "Login + Registration (tabs)"
+msgstr ""
+
+#: widgets/class-afe-widget.php:95
+msgid "Active tab"
+msgstr ""
+
+#: widgets/class-afe-widget.php:99
+msgid "Login"
+msgstr ""
+
+#: widgets/class-afe-widget.php:100
+msgid "Registration"
+msgstr ""
+
+#: widgets/class-afe-widget.php:106
+msgid "Leave empty to reload the current page. Only URLs on this site are allowed."
+msgstr ""
+
+#: widgets/class-afe-widget.php:111
+msgid "Redirect after login"
+msgstr ""
+
+#: widgets/class-afe-widget.php:125
+msgid "Redirect after registration"
+msgstr ""
+
+#: widgets/class-afe-widget.php:135
+msgid "Field labels"
+msgstr ""
+
+#: widgets/class-afe-widget.php:136
+msgid "Required mark"
+msgstr ""
+
+#: widgets/class-afe-widget.php:137
+msgid "Show/hide password button"
+msgstr ""
+
+#: widgets/class-afe-widget.php:144
+msgid "For logged-in users"
+msgstr ""
+
+#: widgets/class-afe-widget.php:148
+msgid "Show message with a log out link"
+msgstr ""
+
+#: widgets/class-afe-widget.php:149
+msgid "Show nothing"
+msgstr ""
+
+#: widgets/class-afe-widget.php:193
+msgid "Form container"
+msgstr ""
+
+#: widgets/class-afe-widget.php:201
+msgid "Max width"
+msgstr ""
+
+#: widgets/class-afe-widget.php:221
+#: widgets/class-afe-widget.php:485
+msgid "Alignment"
+msgstr ""
+
+#: widgets/class-afe-widget.php:225
+#: widgets/class-afe-widget.php:489
+msgid "Left"
+msgstr ""
+
+#: widgets/class-afe-widget.php:229
+#: widgets/class-afe-widget.php:493
+msgid "Center"
+msgstr ""
+
+#: widgets/class-afe-widget.php:233
+#: widgets/class-afe-widget.php:497
+msgid "Right"
+msgstr ""
+
+#: widgets/class-afe-widget.php:249
+msgid "Space between fields"
+msgstr ""
+
+#: widgets/class-afe-widget.php:274
+#: widgets/class-afe-widget.php:453
+#: widgets/class-afe-widget.php:545
+msgid "Padding"
+msgstr ""
+
+#: widgets/class-afe-widget.php:292
+#: widgets/class-afe-widget.php:443
+#: widgets/class-afe-widget.php:535
+msgid "Border radius"
+msgstr ""
+
+#: widgets/class-afe-widget.php:307
+#: widgets/class-afe-widget.php:424
+#: widgets/class-afe-widget.php:512
+#: widgets/class-afe-widget.php:517
+msgid "Text color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:313
+msgid "Heading typography"
+msgstr ""
+
+#: widgets/class-afe-widget.php:318
+msgid "Heading color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:327
+msgid "Tabs"
+msgstr ""
+
+#: widgets/class-afe-widget.php:341
+#: widgets/class-afe-widget.php:383
+msgid "Color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:342
+msgid "Active color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:343
+msgid "Active indicator color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:344
+msgid "Divider color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:349
+msgid "Space below tabs"
+msgstr ""
+
+#: widgets/class-afe-widget.php:369
+msgid "Labels"
+msgstr ""
+
+#: widgets/class-afe-widget.php:384
+msgid "Required mark color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:389
+msgid "Space below label"
+msgstr ""
+
+#: widgets/class-afe-widget.php:411
+msgid "Fields"
+msgstr ""
+
+#: widgets/class-afe-widget.php:425
+msgid "Placeholder color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:426
+#: widgets/class-afe-widget.php:513
+#: widgets/class-afe-widget.php:518
+msgid "Background color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:427
+msgid "Border color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:428
+msgid "Focus color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:433
+msgid "Border width"
+msgstr ""
+
+#: widgets/class-afe-widget.php:469
+msgid "Button"
+msgstr ""
+
+#: widgets/class-afe-widget.php:501
+msgid "Full width"
+msgstr ""
+
+#: widgets/class-afe-widget.php:511
+msgid "Normal"
+msgstr ""
+
+#: widgets/class-afe-widget.php:516
+msgid "Hover"
+msgstr ""
+
+#: widgets/class-afe-widget.php:559
+msgid "Links and checkbox"
+msgstr ""
+
+#: widgets/class-afe-widget.php:572
+msgid "Link color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:573
+msgid "Link hover color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:582
+msgid "Messages"
+msgstr ""
+
+#: widgets/class-afe-widget.php:595
+msgid "Error text color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:596
+msgid "Error background color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:597
+msgid "Success text color"
+msgstr ""
+
+#: widgets/class-afe-widget.php:598
+msgid "Success background color"
+msgstr ""
+
+#: plugin.php
+msgid "Elementor widget with AJAX login, registration and lost-password forms."
+msgstr ""
+

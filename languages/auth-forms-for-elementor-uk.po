@@ -1,0 +1,588 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auth Forms for Elementor 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: auth-forms-for-elementor\n"
+
+#: ajax/class-afe-ajax-login.php:18
+#: ajax/class-afe-ajax-lost-password.php:17
+msgid "Please enter your email or username."
+msgstr "Введіть email або ім’я користувача."
+
+#: ajax/class-afe-ajax-login.php:22
+msgid "Please enter your password."
+msgstr "Введіть пароль."
+
+#: ajax/class-afe-ajax-login.php:26
+#: ajax/class-afe-ajax-lost-password.php:16
+#: ajax/class-afe-ajax-register.php:26
+msgid "Please fix the errors below."
+msgstr "Виправте помилки нижче."
+
+#: ajax/class-afe-ajax-login.php:41
+msgid "Invalid login or password."
+msgstr "Невірний логін або пароль."
+
+#: ajax/class-afe-ajax-login.php:51
+msgid "You have logged in successfully."
+msgstr "Ви успішно увійшли."
+
+#: ajax/class-afe-ajax-lost-password.php:24
+msgid "The email could not be sent. Please try again later or contact the site administrator."
+msgstr "Не вдалося надіслати лист. Спробуйте пізніше або зверніться до адміністратора сайту."
+
+#: ajax/class-afe-ajax-lost-password.php:27
+#: includes/functions.php:162
+msgid "If an account with these details exists, a password reset link has been sent to its email address."
+msgstr "Якщо обліковий запис із такими даними існує, на його email надіслано посилання для скидання пароля."
+
+#: ajax/class-afe-ajax-register.php:13
+#: includes/functions.php:127
+msgid "User registration is currently not allowed."
+msgstr "Реєстрація користувачів наразі вимкнена."
+
+#: ajax/class-afe-ajax-register.php:60
+msgid "Registration complete. You can now log in."
+msgstr "Реєстрацію завершено. Тепер ви можете увійти."
+
+#: ajax/class-afe-ajax-register.php:67
+msgid "Registration complete."
+msgstr "Реєстрацію завершено."
+
+#: ajax/class-afe-ajax-register.php:74
+msgid "Please enter your first name."
+msgstr "Введіть ім’я."
+
+#: ajax/class-afe-ajax-register.php:78
+msgid "Please enter your last name."
+msgstr "Введіть прізвище."
+
+#: ajax/class-afe-ajax-register.php:82
+msgid "Please enter a valid email address."
+msgstr "Введіть коректну email-адресу."
+
+#: ajax/class-afe-ajax-register.php:84
+msgid "This email address is already registered."
+msgstr "Ця email-адреса вже зареєстрована."
+
+#: ajax/class-afe-ajax-register.php:90
+msgid "Please enter a username."
+msgstr "Введіть ім’я користувача."
+
+#: ajax/class-afe-ajax-register.php:92
+msgid "The username may only contain Latin letters, numbers, spaces and the characters _ . - @"
+msgstr "Ім’я користувача може містити лише латинські літери, цифри, пробіли та символи _ . - @"
+
+#: ajax/class-afe-ajax-register.php:94
+msgid "The username may not be longer than 60 characters."
+msgstr "Ім’я користувача не може бути довшим за 60 символів."
+
+#: ajax/class-afe-ajax-register.php:96
+msgid "Sorry, that username is not allowed."
+msgstr "На жаль, це ім’я користувача заборонене."
+
+#: ajax/class-afe-ajax-register.php:98
+msgid "This username is already taken."
+msgstr "Це ім’я користувача вже зайняте."
+
+#: ajax/class-afe-ajax-register.php:104
+msgid "Please enter a password."
+msgstr "Введіть пароль."
+
+#: ajax/class-afe-ajax-register.php:118
+msgid "The passwords do not match."
+msgstr "Паролі не збігаються."
+
+#: ajax/class-afe-ajax-register.php:107
+msgid "The password must be at least %d character long."
+msgid_plural "The password must be at least %d characters long."
+msgstr[0] "Пароль має містити щонайменше %d символ."
+msgstr[1] "Пароль має містити щонайменше %d символи."
+msgstr[2] "Пароль має містити щонайменше %d символів."
+
+#: ajax/class-afe-ajax.php:22
+msgid "You are already logged in."
+msgstr "Ви вже увійшли."
+
+#: ajax/class-afe-ajax.php:29
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "Перевірку безпеки не пройдено. Оновіть сторінку та спробуйте ще раз."
+
+#: ajax/class-afe-ajax.php:33
+msgid "reCAPTCHA verification failed. Please try again."
+msgstr "Перевірку reCAPTCHA не пройдено. Спробуйте ще раз."
+
+#: classes/class-afe-assets.php:41
+msgid "Something went wrong. Please try again."
+msgstr "Щось пішло не так. Спробуйте ще раз."
+
+#: classes/class-afe-assets.php:42
+msgid "Forms are not submitted in the editor preview."
+msgstr "У режимі редактора форми не надсилаються."
+
+#: classes/class-afe-plugin.php:56
+msgid "Auth Forms for Elementor requires Elementor to be installed and activated."
+msgstr "Для роботи Auth Forms for Elementor потрібно встановити та активувати Elementor."
+
+#: classes/class-afe-plugin.php:62
+msgid "Auth Forms for Elementor requires Elementor version %s or newer."
+msgstr "Для роботи Auth Forms for Elementor потрібен Elementor версії %s або новішої."
+
+#: classes/class-afe-settings.php:21
+msgid "Auth Forms for Elementor"
+msgstr "Auth Forms for Elementor"
+
+#: classes/class-afe-settings.php:22
+msgid "Auth Forms"
+msgstr "Auth Forms"
+
+#: classes/class-afe-settings.php:42
+msgid "Google reCAPTCHA v3"
+msgstr "Google reCAPTCHA v3"
+
+#: classes/class-afe-settings.php:48
+msgid "Site key"
+msgstr "Ключ сайту"
+
+#: classes/class-afe-settings.php:49
+msgid "Secret key"
+msgstr "Секретний ключ"
+
+#: classes/class-afe-settings.php:50
+msgid "Score threshold"
+msgstr "Поріг оцінки"
+
+#: classes/class-afe-settings.php:84
+msgid "Fill in both keys to protect the login, registration and password reset forms. Leave them empty to disable reCAPTCHA."
+msgstr "Заповніть обидва ключі, щоб захистити форми входу, реєстрації та скидання пароля. Залиште порожніми, щоб вимкнути reCAPTCHA."
+
+#: classes/class-afe-settings.php:99
+msgid "Requests scoring below this value (0–1) are rejected. Default: 0.5."
+msgstr "Запити з оцінкою нижче цього значення (0–1) відхиляються. Типово: 0.5."
+
+#: classes/class-afe-settings.php:136
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/functions.php:29
+msgid "%s: label"
+msgstr "%s: підпис"
+
+#: includes/functions.php:33
+msgid "%s: placeholder"
+msgstr "%s: підказка в полі"
+
+#: includes/functions.php:46
+msgid "Email or Username"
+msgstr "Email або ім’я користувача"
+
+#: includes/functions.php:47
+msgid "Password"
+msgstr "Пароль"
+
+#: includes/functions.php:48
+msgid "First Name"
+msgstr "Ім’я"
+
+#: includes/functions.php:49
+msgid "Last Name"
+msgstr "Прізвище"
+
+#: includes/functions.php:50
+msgid "Email"
+msgstr "Email"
+
+#: includes/functions.php:51
+msgid "Username"
+msgstr "Ім’я користувача"
+
+#: includes/functions.php:52
+msgid "Confirm Password"
+msgstr "Підтвердження пароля"
+
+#: includes/functions.php:54
+msgid "Tab title"
+msgstr "Назва вкладки"
+
+#: includes/functions.php:55
+msgid "Heading"
+msgstr "Заголовок"
+
+#: includes/functions.php:56
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: includes/functions.php:57
+msgid "Success message"
+msgstr "Повідомлення про успіх"
+
+#: includes/functions.php:61
+msgid "Login form texts"
+msgstr "Тексти форми входу"
+
+#: includes/functions.php:67
+#: includes/functions.php:87
+msgid "Log In"
+msgstr "Увійти"
+
+#: includes/functions.php:78
+msgid "Remember Me text"
+msgstr "Текст «Запам’ятати мене»"
+
+#: includes/functions.php:79
+#: widgets/class-afe-widget.php:138
+msgid "Remember Me"
+msgstr "Запам’ятати мене"
+
+#: includes/functions.php:82
+#: widgets/class-afe-widget.php:139
+msgid "Forgot password link"
+msgstr "Посилання «Забули пароль»"
+
+#: includes/functions.php:83
+msgid "Forgot password?"
+msgstr "Забули пароль?"
+
+#: includes/functions.php:91
+msgid "You have logged in successfully. Redirecting…"
+msgstr "Ви успішно увійшли. Перенаправлення…"
+
+#: includes/functions.php:97
+msgid "Registration form texts"
+msgstr "Тексти форми реєстрації"
+
+#: includes/functions.php:103
+#: includes/functions.php:119
+msgid "Register"
+msgstr "Зареєструватися"
+
+#: includes/functions.php:123
+msgid "Registration complete. Redirecting…"
+msgstr "Реєстрацію завершено. Перенаправлення…"
+
+#: includes/functions.php:126
+msgid "Registration closed message"
+msgstr "Повідомлення про вимкнену реєстрацію"
+
+#: includes/functions.php:133
+msgid "Forgot password form texts"
+msgstr "Тексти форми відновлення пароля"
+
+#: includes/functions.php:142
+msgid "Reset password"
+msgstr "Скидання пароля"
+
+#: includes/functions.php:145
+msgid "Description"
+msgstr "Опис"
+
+#: includes/functions.php:146
+msgid "Enter your email or username and we will send you a link to reset your password."
+msgstr "Введіть email або ім’я користувача, і ми надішлемо посилання для скидання пароля."
+
+#: includes/functions.php:154
+msgid "Send reset link"
+msgstr "Надіслати посилання"
+
+#: includes/functions.php:157
+msgid "Back link"
+msgstr "Посилання «Назад»"
+
+#: includes/functions.php:158
+msgid "Back to login"
+msgstr "Повернутися до входу"
+
+#: includes/functions.php:169
+msgid "Other texts"
+msgstr "Інші тексти"
+
+#: includes/functions.php:172
+msgid "Show password (button label)"
+msgstr "Показати пароль (підпис кнопки)"
+
+#: includes/functions.php:173
+msgid "Show password"
+msgstr "Показати пароль"
+
+#: includes/functions.php:176
+msgid "Hide password (button label)"
+msgstr "Сховати пароль (підпис кнопки)"
+
+#: includes/functions.php:177
+msgid "Hide password"
+msgstr "Сховати пароль"
+
+#: includes/functions.php:180
+msgid "Logged-in message"
+msgstr "Повідомлення для авторизованих"
+
+#: includes/functions.php:181
+msgid "You are logged in as %s."
+msgstr "Ви увійшли як %s."
+
+#: includes/functions.php:182
+msgid "%s is replaced with the user name."
+msgstr "%s замінюється на ім’я користувача."
+
+#: includes/functions.php:185
+msgid "Log out link"
+msgstr "Посилання «Вийти»"
+
+#: includes/functions.php:186
+msgid "Log out"
+msgstr "Вийти"
+
+#: includes/templates/register.php:13
+msgid "Enable “Anyone can register” in Settings → General."
+msgstr "Увімкніть «Будь-хто може зареєструватися» в Налаштування → Загальні."
+
+#: widgets/class-afe-widget.php:23
+msgid "Auth Form"
+msgstr "Форма авторизації"
+
+#: widgets/class-afe-widget.php:73
+msgid "Form"
+msgstr "Форма"
+
+#: widgets/class-afe-widget.php:81
+msgid "Form type"
+msgstr "Тип форми"
+
+#: widgets/class-afe-widget.php:85
+msgid "Login form"
+msgstr "Форма входу"
+
+#: widgets/class-afe-widget.php:86
+msgid "Registration form"
+msgstr "Форма реєстрації"
+
+#: widgets/class-afe-widget.php:87
+msgid "Login + Registration (tabs)"
+msgstr "Вхід + реєстрація (вкладки)"
+
+#: widgets/class-afe-widget.php:95
+msgid "Active tab"
+msgstr "Активна вкладка"
+
+#: widgets/class-afe-widget.php:99
+msgid "Login"
+msgstr "Вхід"
+
+#: widgets/class-afe-widget.php:100
+msgid "Registration"
+msgstr "Реєстрація"
+
+#: widgets/class-afe-widget.php:106
+msgid "Leave empty to reload the current page. Only URLs on this site are allowed."
+msgstr "Залиште порожнім, щоб перезавантажити поточну сторінку. Дозволені лише адреси цього сайту."
+
+#: widgets/class-afe-widget.php:111
+msgid "Redirect after login"
+msgstr "Редирект після входу"
+
+#: widgets/class-afe-widget.php:125
+msgid "Redirect after registration"
+msgstr "Редирект після реєстрації"
+
+#: widgets/class-afe-widget.php:135
+msgid "Field labels"
+msgstr "Підписи полів"
+
+#: widgets/class-afe-widget.php:136
+msgid "Required mark"
+msgstr "Позначка обов’язкового поля"
+
+#: widgets/class-afe-widget.php:137
+msgid "Show/hide password button"
+msgstr "Кнопка показу/приховування пароля"
+
+#: widgets/class-afe-widget.php:144
+msgid "For logged-in users"
+msgstr "Для авторизованих користувачів"
+
+#: widgets/class-afe-widget.php:148
+msgid "Show message with a log out link"
+msgstr "Показати повідомлення з посиланням «Вийти»"
+
+#: widgets/class-afe-widget.php:149
+msgid "Show nothing"
+msgstr "Нічого не показувати"
+
+#: widgets/class-afe-widget.php:193
+msgid "Form container"
+msgstr "Контейнер форми"
+
+#: widgets/class-afe-widget.php:201
+msgid "Max width"
+msgstr "Максимальна ширина"
+
+#: widgets/class-afe-widget.php:221
+#: widgets/class-afe-widget.php:485
+msgid "Alignment"
+msgstr "Вирівнювання"
+
+#: widgets/class-afe-widget.php:225
+#: widgets/class-afe-widget.php:489
+msgid "Left"
+msgstr "Ліворуч"
+
+#: widgets/class-afe-widget.php:229
+#: widgets/class-afe-widget.php:493
+msgid "Center"
+msgstr "По центру"
+
+#: widgets/class-afe-widget.php:233
+#: widgets/class-afe-widget.php:497
+msgid "Right"
+msgstr "Праворуч"
+
+#: widgets/class-afe-widget.php:249
+msgid "Space between fields"
+msgstr "Відстань між полями"
+
+#: widgets/class-afe-widget.php:274
+#: widgets/class-afe-widget.php:453
+#: widgets/class-afe-widget.php:545
+msgid "Padding"
+msgstr "Внутрішні відступи"
+
+#: widgets/class-afe-widget.php:292
+#: widgets/class-afe-widget.php:443
+#: widgets/class-afe-widget.php:535
+msgid "Border radius"
+msgstr "Радіус заокруглення"
+
+#: widgets/class-afe-widget.php:307
+#: widgets/class-afe-widget.php:424
+#: widgets/class-afe-widget.php:512
+#: widgets/class-afe-widget.php:517
+msgid "Text color"
+msgstr "Колір тексту"
+
+#: widgets/class-afe-widget.php:313
+msgid "Heading typography"
+msgstr "Типографіка заголовка"
+
+#: widgets/class-afe-widget.php:318
+msgid "Heading color"
+msgstr "Колір заголовка"
+
+#: widgets/class-afe-widget.php:327
+msgid "Tabs"
+msgstr "Вкладки"
+
+#: widgets/class-afe-widget.php:341
+#: widgets/class-afe-widget.php:383
+msgid "Color"
+msgstr "Колір"
+
+#: widgets/class-afe-widget.php:342
+msgid "Active color"
+msgstr "Колір активної вкладки"
+
+#: widgets/class-afe-widget.php:343
+msgid "Active indicator color"
+msgstr "Колір індикатора активної вкладки"
+
+#: widgets/class-afe-widget.php:344
+msgid "Divider color"
+msgstr "Колір розділювача"
+
+#: widgets/class-afe-widget.php:349
+msgid "Space below tabs"
+msgstr "Відступ під вкладками"
+
+#: widgets/class-afe-widget.php:369
+msgid "Labels"
+msgstr "Підписи"
+
+#: widgets/class-afe-widget.php:384
+msgid "Required mark color"
+msgstr "Колір позначки обов’язкового поля"
+
+#: widgets/class-afe-widget.php:389
+msgid "Space below label"
+msgstr "Відступ під підписом"
+
+#: widgets/class-afe-widget.php:411
+msgid "Fields"
+msgstr "Поля"
+
+#: widgets/class-afe-widget.php:425
+msgid "Placeholder color"
+msgstr "Колір підказки в полі"
+
+#: widgets/class-afe-widget.php:426
+#: widgets/class-afe-widget.php:513
+#: widgets/class-afe-widget.php:518
+msgid "Background color"
+msgstr "Колір фону"
+
+#: widgets/class-afe-widget.php:427
+msgid "Border color"
+msgstr "Колір рамки"
+
+#: widgets/class-afe-widget.php:428
+msgid "Focus color"
+msgstr "Колір фокуса"
+
+#: widgets/class-afe-widget.php:433
+msgid "Border width"
+msgstr "Товщина рамки"
+
+#: widgets/class-afe-widget.php:469
+msgid "Button"
+msgstr "Кнопка"
+
+#: widgets/class-afe-widget.php:501
+msgid "Full width"
+msgstr "На всю ширину"
+
+#: widgets/class-afe-widget.php:511
+msgid "Normal"
+msgstr "Звичайний стан"
+
+#: widgets/class-afe-widget.php:516
+msgid "Hover"
+msgstr "При наведенні"
+
+#: widgets/class-afe-widget.php:559
+msgid "Links and checkbox"
+msgstr "Посилання та чекбокс"
+
+#: widgets/class-afe-widget.php:572
+msgid "Link color"
+msgstr "Колір посилання"
+
+#: widgets/class-afe-widget.php:573
+msgid "Link hover color"
+msgstr "Колір посилання при наведенні"
+
+#: widgets/class-afe-widget.php:582
+msgid "Messages"
+msgstr "Повідомлення"
+
+#: widgets/class-afe-widget.php:595
+msgid "Error text color"
+msgstr "Колір тексту помилки"
+
+#: widgets/class-afe-widget.php:596
+msgid "Error background color"
+msgstr "Колір фону помилки"
+
+#: widgets/class-afe-widget.php:597
+msgid "Success text color"
+msgstr "Колір тексту успіху"
+
+#: widgets/class-afe-widget.php:598
+msgid "Success background color"
+msgstr "Колір фону успіху"
+
+#: plugin.php
+msgid "Elementor widget with AJAX login, registration and lost-password forms."
+msgstr "Віджет Elementor з AJAX-формами входу, реєстрації та відновлення пароля."
+

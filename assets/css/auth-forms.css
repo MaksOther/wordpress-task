@@ -1,0 +1,347 @@
+.afe {
+	--afe-accent: #2563eb;
+	--afe-accent-hover: #1d4ed8;
+	--afe-text: #1f2937;
+	--afe-heading: var(--afe-text);
+	--afe-muted: #6b7280;
+	--afe-border: #d1d5db;
+	--afe-focus: var(--afe-accent);
+	--afe-label: var(--afe-text);
+	--afe-required: #dc2626;
+	--afe-input-text: var(--afe-text);
+	--afe-input-bg: #fff;
+	--afe-placeholder: #9ca3af;
+	--afe-button-text: #fff;
+	--afe-button-text-hover: var(--afe-button-text);
+	--afe-link: var(--afe-accent);
+	--afe-link-hover: var(--afe-accent-hover);
+	--afe-tab: var(--afe-muted);
+	--afe-tab-active: var(--afe-accent);
+	--afe-tab-indicator: var(--afe-tab-active);
+	--afe-tab-border: var(--afe-border);
+	--afe-error: #b91c1c;
+	--afe-error-bg: #fef2f2;
+	--afe-success: #166534;
+	--afe-success-bg: #f0fdf4;
+	--afe-gap: 16px;
+
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	color: var(--afe-text);
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.afe *,
+.afe *::before,
+.afe *::after {
+	box-sizing: border-box;
+}
+
+.afe [hidden] {
+	display: none !important;
+}
+
+.afe .afe__tabs {
+	display: flex;
+	margin: 0 0 24px;
+	border-bottom: 1px solid var(--afe-tab-border);
+}
+
+.afe .afe__tab {
+	flex: 1 1 0;
+	min-width: 0;
+	min-height: 44px;
+	margin: 0 0 -1px;
+	padding: 10px 12px;
+	border: 0;
+	border-bottom: 2px solid transparent;
+	border-radius: 0;
+	background: none;
+	box-shadow: none;
+	color: var(--afe-tab);
+	font: inherit;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.afe .afe__tab:hover,
+.afe .afe__tab:focus {
+	background: none;
+	color: var(--afe-tab);
+}
+
+.afe .afe__tab:hover,
+.afe .afe__tab.is-active {
+	color: var(--afe-tab-active);
+}
+
+.afe .afe__tab.is-active {
+	border-bottom-color: var(--afe-tab-indicator);
+}
+
+.afe .afe__form {
+	display: flex;
+	flex-direction: column;
+	gap: var(--afe-gap);
+	margin: 0;
+}
+
+.afe .afe__heading {
+	margin: 0;
+	color: var(--afe-heading);
+	font-size: 1.375em;
+	line-height: 1.3;
+}
+
+.afe .afe__description {
+	margin: 0;
+	color: var(--afe-muted);
+}
+
+.afe .afe__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+	gap: var(--afe-gap);
+}
+
+.afe .afe__field {
+	min-width: 0;
+}
+
+.afe .afe__label {
+	display: block;
+	margin: 0 0 6px;
+	color: var(--afe-label);
+	font-size: 0.875em;
+	font-weight: 600;
+}
+
+.afe .afe__required {
+	color: var(--afe-required);
+}
+
+.afe .afe__control {
+	position: relative;
+}
+
+.afe .afe__input {
+	display: block;
+	width: 100%;
+	min-height: 44px;
+	margin: 0;
+	padding: 10px 14px;
+	border: 1px solid var(--afe-border);
+	border-radius: 8px;
+	background-color: var(--afe-input-bg);
+	box-shadow: none;
+	color: var(--afe-input-text);
+	font: inherit;
+	font-size: 16px;
+	line-height: 1.4;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.afe .afe__input::placeholder {
+	color: var(--afe-placeholder);
+	opacity: 1;
+}
+
+.afe .afe__input:focus {
+	border-color: var(--afe-focus);
+	outline: 2px solid var(--afe-focus);
+	outline-offset: 1px;
+}
+
+.afe .afe__input[aria-invalid="true"] {
+	border-color: var(--afe-error);
+}
+
+.afe .afe__field--has-toggle .afe__input {
+	padding-right: 48px;
+}
+
+.afe .afe__toggle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 8px;
+	background: none;
+	box-shadow: none;
+	color: var(--afe-muted);
+	cursor: pointer;
+}
+
+.afe .afe__toggle:hover,
+.afe .afe__toggle:focus {
+	background: none;
+	color: var(--afe-text);
+}
+
+.afe .afe__icon--hide,
+.afe .afe__toggle[aria-pressed="true"] .afe__icon--show {
+	display: none;
+}
+
+.afe .afe__toggle[aria-pressed="true"] .afe__icon--hide {
+	display: block;
+}
+
+.afe .afe__error {
+	margin: 6px 0 0;
+	color: var(--afe-error);
+	font-size: 0.8125em;
+}
+
+.afe .afe__row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px 16px;
+	font-size: 0.875em;
+}
+
+.afe .afe__row--center {
+	justify-content: center;
+}
+
+.afe .afe__checkbox {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	margin: 0;
+	cursor: pointer;
+}
+
+.afe .afe__checkbox input {
+	width: 16px;
+	height: 16px;
+	margin: 0;
+	accent-color: var(--afe-accent);
+}
+
+.afe .afe__link {
+	color: var(--afe-link);
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.afe .afe__link:hover,
+.afe .afe__link:focus {
+	color: var(--afe-link-hover);
+}
+
+.afe .afe__button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	align-self: stretch;
+	min-height: 46px;
+	margin: 0;
+	padding: 12px 24px;
+	border: 0;
+	border-radius: 8px;
+	background-color: var(--afe-accent);
+	box-shadow: none;
+	color: var(--afe-button-text);
+	font: inherit;
+	font-weight: 600;
+	line-height: 1.2;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+}
+
+.afe .afe__button:hover,
+.afe .afe__button:focus {
+	background-color: var(--afe-accent-hover);
+	color: var(--afe-button-text-hover);
+	text-decoration: none;
+}
+
+.afe .afe__tab:focus-visible,
+.afe .afe__toggle:focus-visible,
+.afe .afe__button:focus-visible,
+.afe .afe__link:focus-visible {
+	outline: 2px solid var(--afe-focus);
+	outline-offset: 2px;
+}
+
+.afe .afe__button[disabled] {
+	opacity: 0.7;
+	cursor: progress;
+}
+
+.afe .afe__spinner {
+	display: none;
+	width: 16px;
+	height: 16px;
+	border: 2px solid currentColor;
+	border-right-color: transparent;
+	border-radius: 50%;
+	animation: afe-spin 0.7s linear infinite;
+}
+
+.afe .afe__form.is-loading .afe__spinner {
+	display: block;
+}
+
+@keyframes afe-spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.afe .afe__message {
+	margin: 0;
+	padding: 12px 14px;
+	border-radius: 8px;
+	background-color: #f3f4f6;
+	font-size: 0.9375em;
+}
+
+.afe .afe__message--error {
+	background-color: var(--afe-error-bg);
+	color: var(--afe-error);
+}
+
+.afe .afe__message--success {
+	background-color: var(--afe-success-bg);
+	color: var(--afe-success);
+}
+
+.afe .afe__panel > .afe__message {
+	margin-bottom: var(--afe-gap);
+}
+
+.afe .afe__logged-in {
+	margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.afe .afe__spinner {
+		animation-duration: 2s;
+	}
+
+	.afe .afe__tab,
+	.afe .afe__input,
+	.afe .afe__button {
+		transition: none;
+	}
+}
